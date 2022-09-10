@@ -1,0 +1,11 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --bg-yellow: #FFBF00;
+    --bg-blue:#142BA4;
+  }
+
+  .head-image{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+  }

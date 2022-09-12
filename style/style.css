@@ -95,11 +95,13 @@ a:hover {
 }
 
 #about {
-  width: 80%;
+  width: 60%;
   display: flex;
   text-align: justify;
 }
-
+#about>div {
+  padding: 5%;
+}
 #description {
   width: 70%;
   margin: auto;

@@ -17,7 +17,7 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: var(--bg-blue);
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,11 +61,13 @@ canvas {
   width: 60%;
   display: flex;
   text-align: justify;
+  margin-top: 50px;
 }
 
 #description {
   width: 70%;
   margin: auto;
+  margin-top: 20px;
 }
 
 #description>h3 {
@@ -95,22 +97,4 @@ h3 {
   text-decoration: underline;
   text-decoration-color: var(--bg-yellow);
   text-decoration-thickness: 4px;
-
-}
-
-
-.circle-wrap .inside-circle {
-  width: 122px;
-  height: 122px;
-  border-radius: 50%;
-  background: #d2eaf1;
-  line-height: 120px;
-  text-align: center;
-  margin-top: 14px;
-  margin-left: 14px;
-  color: #1e51dc;
-  position: absolute;
-  z-index: 100;
-  font-weight: 700;
-  font-size: 2em;
 }

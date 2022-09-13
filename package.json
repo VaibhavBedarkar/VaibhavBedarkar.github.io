@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap-icons": "^1.9.1",
     "github-calendar": "^2.3.1"
   }
 }

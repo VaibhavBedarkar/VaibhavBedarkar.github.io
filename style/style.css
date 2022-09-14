@@ -39,11 +39,12 @@ canvas {
   margin-top: 20px;
 }
 
+
 #techstack {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px 100px;
-  gap: 20px 20px;
+  gap: 10px;
   align-content: center;
   justify-content: center;
   margin: auto;
@@ -58,7 +59,7 @@ canvas {
 }
 
 #about {
-  width: 60%;
+  width: 80%;
   display: flex;
   text-align: justify;
   margin-top: 50px;
@@ -67,17 +68,18 @@ canvas {
 #description {
   width: 70%;
   margin: auto;
-  margin-top: 20px;
 }
 
 #description>h3 {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #stackImg {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 75px;
-  height: 75px;
+  width: 85px;
+  height: 85px;
   border-radius: 8px;
   margin: auto;
 }
@@ -97,4 +99,9 @@ h3 {
   text-decoration: underline;
   text-decoration-color: var(--bg-yellow);
   text-decoration-thickness: 4px;
+}
+
+.card-group{
+  gap:40px;
+  margin-top: 20px;
 }

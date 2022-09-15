@@ -164,3 +164,8 @@ footer>p {
 table{
   text-align: left;
 }
+
+.Statistics{
+  display: flex;
+  justify-content: space-evenly;
+}

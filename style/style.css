@@ -134,6 +134,26 @@ h3 {
     text-align: center;
   }
 
+  .Statistics {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stats {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats>h4 {
+    font-size: 10px;
+  }
+
+  .stats>p {
+    font-size: 8px;
+  }
 
 }
 
@@ -155,17 +175,46 @@ footer>p {
   padding: 10px;
   margin: 0%;
 }
-#contact{
+
+#contact {
   width: 100%;
   margin: auto;
   justify-content: center;
-  
+
 }
-table{
+
+table {
   text-align: left;
 }
 
-.Statistics{
+.Statistics {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: content;
+  gap: 20px;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.stats>h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--bg-blue);
+}
+
+.stats>p {
+  font-size: 14px;
+}
+
+.card:hover, #stackImg:hover {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

@@ -122,6 +122,9 @@ h3 {
     margin: auto;
   }
 
+  #description>h5{
+    font-size: 16px;
+  }
   #techstack {
     width: 60%;
     display: grid;

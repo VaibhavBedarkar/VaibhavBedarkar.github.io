@@ -123,9 +123,10 @@ h3 {
     margin: auto;
   }
 
-  #description>h5{
+  #description>h5 {
     font-size: 16px;
   }
+
   #techstack {
     width: 60%;
     display: grid;
@@ -141,7 +142,7 @@ h3 {
   .Statistics {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
   }
 
   .stats {
@@ -219,13 +220,14 @@ table {
   font-size: 14px;
 }
 
-.card:hover, #stackImg:hover, .stats:hover {
+.card:hover,
+#stackImg:hover,
+.stats:hover {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.stats:hover, #stackImg:hover {
+.stats:hover,
+#stackImg:hover {
   background-color: var(--bg-yellow);
 }
-
-

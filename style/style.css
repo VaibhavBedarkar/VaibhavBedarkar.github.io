@@ -9,7 +9,6 @@
   --bg-blue: #142BA4;
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: auto;
@@ -225,6 +224,10 @@ table {
   align-items: left;
 }
 .rounded-pill{
-  font-size: 36px;
+  margin-top: 10px;
+  font-size: 18px;
   height: 30px;
+}
+#inline{
+  display: inline;
 }

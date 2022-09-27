@@ -2,23 +2,27 @@
   font-family: 'Poppins', sans-serif;
 
 }
-#intro{
-  display: flex;
-  background-color: #FFBF00;
-  color: aliceblue;
-}
 
 :root {
   --bg-yellow: #FFBF00;
   --bg-blue: #142BA4;
 }
+#section{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: auto;
   text-align: center;
 }
-
+#description{
+  width: 70%;
+  padding:40px ;
+}
 #profilePic {
   width: 250px;
   height: 250px;
@@ -51,16 +55,9 @@
 
 
 
-#description {
-  width: 70%;
-  margin: auto;
-  margin-top: 80px;
-}
-
 #description>h3 {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 #stackImg {
@@ -183,9 +180,7 @@ footer>p {
 
 }
 
-table {
-  text-align: left;
-}
+
 
 .Statistics {
   display: flex;
@@ -215,7 +210,6 @@ table {
   font-size: 14px;
 }
 
-.card:hover,
 #stackImg:hover,
 .stats:hover {
   border-radius: 10px;
@@ -229,9 +223,5 @@ table {
 }
 .rounded-pill{
   margin-top: 10px;
-
   height: 30px;
-}
-#inline{
-  display: inline;
 }

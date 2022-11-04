@@ -133,7 +133,7 @@ h3 {
   .Statistics {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
     margin-top: 50px;
   }
 
@@ -142,6 +142,8 @@ h3 {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding: 10%;
+    margin: 10px;
   }
 
   .stats>h4 {
@@ -186,10 +188,11 @@ footer>p {
   display: flex;
   justify-content: content;
   align-items: center;
+  gap:40px
 }
 
 .stats {
-  width:250px;
+  width:200px;
   height: 150px;
   display: flex;
   flex-direction: column;

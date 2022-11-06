@@ -188,7 +188,8 @@ footer>p {
   display: flex;
   justify-content: content;
   align-items: center;
-  gap:40px
+  gap:40px;
+  margin: 5%;
 }
 
 .stats {
